@@ -26,7 +26,7 @@ our $SCRIPTLET = {
         package
             App::perlmv::code;
 
-        use vars qw($ARGS $sim $listing);
+        use vars qw($ARGS);
 
         $ARGS && defined $ARGS->{prefix}
             or die "Please specify 'prefix' argument (e.g. '-a prefix=new-')";
@@ -65,3 +65,10 @@ This command:
 will rename the files as follow:
 
  foo.txt -> new-foo.txt
+
+
+=head1 prepend:SEE ALSO
+
+L<App::perlmv::scriptlet::add_suffix>
+
+The C<remove-common-prefix> scriptlet
