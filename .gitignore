@@ -2,3 +2,4 @@ App-perlmv-scriptlet-add_prefix-*
 .build
 *~
 nytprof*
+.DS_Store
